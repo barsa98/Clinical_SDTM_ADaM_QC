@@ -1,7 +1,6 @@
-# Clinical_SDTM_ADaM_QC
+# Clinical_SDTM_ADaM_QC & Mock Submission Pipeline
 Independent SDTM and ADaM QC, validation, traceability, metadata review, and submission-readiness assessment using SAS and SQL.
 
-# Clinical SAS SDTM/ADaM QC & Mock Submission Pipeline
 
 ## Overview
 

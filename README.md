@@ -119,4 +119,4 @@ Mock Submission Package – creating a final dataset inventory, validation summa
                            v
              Mock Submission Package
 
-Pinnacle 21: Pinnacle 21 Community was considered as an external CDISC conformance-validation tool. Due to the current Pinnacle ID registration requirement for Community, automated Pinnacle 21 validation was not included in this individual portfolio implementation. SAS-based validation and QC checks were therefore used instead.
+Pinnacle 21: Pinnacle 21 Community can be considered as an external CDISC conformance-validation tool. Due to the current Pinnacle ID registration requirement for Community, automated Pinnacle 21 validation was not included in this individual portfolio implementation. SAS-based validation and QC checks were therefore used instead.

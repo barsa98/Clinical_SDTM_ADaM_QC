@@ -50,18 +50,22 @@ This project does not perform the original efficacy/safety TFL analyses. It uses
 
 # Project Objective
 
-The objective is to demonstrate a realistic Clinical SAS workflow covering:
+The objective of this project is to demonstrate an end-to-end Clinical SAS data QC and submission-readiness workflow using publicly available simulated clinical-trial SDTM and ADaM datasets.
 
-1. SDTM data QC
-2. ADaM data QC
-3. SDTM-to-ADaM traceability
-4. Independent QC programming
-5. Dataset comparison using `PROC COMPARE`
-6. SAS Transport File (XPT) creation and validation
-7. Metadata validation
-8. Define-XML review
-9. Final traceability documentation
-10. Mock submission package checks
+The project focuses on validating data quality, checking relationships between SDTM and ADaM, independently reproducing analysis datasets, comparing results, validating submission formats and metadata, and documenting traceability through a simulated submission process.
+
+The workflow covers:
+
+SDTM Data QC – structural, completeness, uniqueness, duplicate, date, and referential-integrity checks.
+ADaM Data QC – subject-level, treatment, analysis-variable, and source-data consistency checks.
+SDTM-to-ADaM Traceability – documenting how analysis records and variables can be traced back to their SDTM sources.
+Independent QC Programming – independently deriving QC datasets from SDTM source data.
+Dataset Comparison – using PROC COMPARE to identify differences between provided ADaM datasets and independently derived QC datasets.
+XPT Creation & Validation – preparing selected SDTM and ADaM datasets in SAS Transport format and performing structural checks.
+Metadata QC – reviewing variable names, labels, types, lengths, formats, and other dataset attributes.
+Define-XML Review – creating a basic review of dataset and variable metadata relevant to Define-XML.
+Final Traceability Assessment – summarizing record-level relationships and matched/unmatched records.
+Mock Submission Package – creating a final dataset inventory, validation summary, and submission-readiness checklist.
 
 ---
 

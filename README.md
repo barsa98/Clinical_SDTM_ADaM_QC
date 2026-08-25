@@ -71,41 +71,51 @@ Mock Submission Package – creating a final dataset inventory, validation summa
 
 # Workflow
 
-```text
-Clinical Fake Data
-       |
-       v
-SDTM / ADaM Datasets
-       |
-       v
-SAS Library Setup
-       |
-       v
-SDTM QC
-       |
-       v
-ADaM QC
-       |
-       v
-Traceability
-       |
-       v
-Independent QC
-       |
-       v
-PROC COMPARE
-       |
-       v
-XPT Creation & Validation
-       |
-       v
-Metadata QC
-       |
-       v
-Define-XML Review
-       |
-       v
-Final Traceability
-       |
-       v
-Mock Submission Package
+                    Clinical Fake Data
+                           |
+                           v
+                 SDTM / ADaM Datasets
+                           |
+                           v
+                  SAS Library Setup
+                           |
+                           v
+                     SDTM QC
+              ┌────────────┴────────────┐
+              |                         |
+       Structure & Quality       Referential Integrity
+              |                         |
+              └────────────┬────────────┘
+                           v
+                     ADaM QC
+              ┌────────────┴────────────┐
+              |                         |
+       Dataset Validation       Source Data Checks
+              |                         |
+              └────────────┬────────────┘
+                           v
+                  SDTM → ADaM
+                   Traceability
+                           |
+                           v
+                  Independent QC
+                           |
+                           v
+                    PROC COMPARE
+                           |
+                           v
+                 XPT Creation &
+                    Validation
+                           |
+                           v
+                   Metadata QC
+                           |
+                           v
+                 Define-XML Review
+                           |
+                           v
+              Final Traceability
+                  Assessment
+                           |
+                           v
+             Mock Submission Package

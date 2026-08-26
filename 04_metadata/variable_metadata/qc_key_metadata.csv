@@ -1,0 +1,11 @@
+dataset,NAME,TYPE,LENGTH,LABEL
+SDTM.DM,usubjid,2,11,
+SDTM.AE,aeseq,1,8,
+SDTM.AE,usubjid,2,11,
+SDTM.LBCH,lbseq,1,8,
+SDTM.LBCH,usubjid,2,11,
+ADAM.ADSL,trt01a,2,20,
+ADAM.ADSL,trt01an,1,8,
+ADAM.ADSL,usubjid,2,11,
+ADAM.ADAE,aeterm,2,46,
+ADAM.ADAE,usubjid,2,11,

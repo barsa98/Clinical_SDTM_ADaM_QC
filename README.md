@@ -10,10 +10,24 @@ The original `clinical_fd` project provides fake SDTM and ADaM datasets intended
 
 In this project, the same clinical datasets are used as the input for an independent **SAS-based QC and validation pipeline**.
 
-The goal is not to reproduce the original R-based TFL generation. Instead, the project demonstrates how a Clinical SAS Programmer can independently review, validate, compare, and document SDTM and ADaM datasets before a simulated submission.
+The purpose of this project is not to reproduce the original R-based TFL generation. Instead, it demonstrates how clinical datasets can be independently reviewed and validated through multiple stages before a simulated regulatory submission.
+
+The project covers:
+
+- SDTM data QC
+- ADaM data QC
+- SDTM-to-ADaM traceability
+- Independent QC programming
+- Dataset comparison using `PROC COMPARE`
+- SAS Transport (`XPT`) creation and structural validation
+- Dataset and variable metadata QC
+- Define-XML-oriented metadata review
+- Final traceability assessment
+- Mock submission package checks
+
+> **Note:** This is an educational portfolio project using simulated clinical-trial data. It is not a production or regulatory submission.
 
 ---
-
 ## Source Data
 
 The datasets used in this project come from:
@@ -22,11 +36,14 @@ The datasets used in this project come from:
 
 https://github.com/sas2r/clinical_fd
 
-The `clinical_fd` package provides simulated SDTM and ADaM clinical trial datasets for public use.
+The `clinical_fd` project provides simulated SDTM and ADaM clinical-trial datasets for public use.
 
-The original project describes data from **CDISCPilot01**, including:
+The datasets are based on the **CDISC Pilot / CDISCPilot01** clinical-trial data structure and contain data supporting efficacy and safety analyses.
+
 
 ### Efficacy
+
+The source project describes:
 
 - ADAS-Cog (11) at Week 24 – primary endpoint
 - CIBIC+ at Week 24 – primary endpoint
